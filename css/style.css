@@ -45,6 +45,12 @@ p{
     font-weight: 700;
 
 }
+.containers{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
 /* header */
 .header{
 background:var(--bg-dark);
@@ -102,3 +108,12 @@ line-height: 1.7em;
     line-height: 1.9em;
 
 }
+.features{
+    padding: 100px 0px;
+    overflow: auto;
+}
+ .feature{
+    float: left;
+    width:50%;
+    
+} 
