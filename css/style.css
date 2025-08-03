@@ -43,7 +43,23 @@ p{
     color: var(--color-dark);
     font-size: 14px;
     font-weight: 700;
+    border: 0;
 
+}
+.btn-primary:hover{
+    background-color:var(--bg-dark-hover);
+    color: var(--color-text);}
+.btn-dark{
+    background: var(--bg-dark);
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.btn-dark:hover{
+    background-color: var(--color-text);
+    color: var(--color-dark);
+    border:1px solid var(--color-dark);
 }
 .containers{
     max-width: 1000px;
@@ -117,3 +133,25 @@ line-height: 1.7em;
     width:50%;
     
 } 
+.person{
+    height: 400px;
+    background: url(https://coffee-pingucoder.netlify.app/images/cafe3.jpg) center center/cover;
+    margin: 50px 0px;
+}
+.reservation{
+    padding: 100px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+
+}
+/* footer */
+footer{
+    background-color: var(--bg-dark);
+    color: var(--color-text);
+    padding: 30px 0px;
+    text-align: center;
+}
+footer p{
+     margin-bottom: 0px;
+}
