@@ -18,9 +18,32 @@ h1,h2,h3{
 
 
 }
+.seperator{
+    display: block;
+    background-color: #111;
+    margin: 20px auto;
+    width: 100px;
+    height: 10px;
+}
 a{
     text-decoration: none;
     color: var(--color-dark);
+}
+p{
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-primary{
+    background: white;
+    color: var(--color-dark);
+    font-size: 14px;
+    font-weight: 700;
+
 }
 /* header */
 .header{
@@ -55,4 +78,27 @@ line-height: 1.7em;
 }
 .active{
    background: var(--bg-dark-hover);
+}
+/* vp */
+.vp{
+    height: 700px;
+    background: url(../images/bgc.jpg) center center/cover ;
+    text-align: center;
+}
+.vp-content{
+    max-width: 600px;
+    padding-top: 150px;
+    color:var(--color-text);
+    display: block;
+    margin: auto;
+
+}
+.vp-content h1{
+    font-size: 50px;
+}
+.vp-content p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+
 }
