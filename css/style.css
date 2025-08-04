@@ -67,6 +67,24 @@ p{
     margin: auto;
     text-align: center;
 }
+.under-line{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555;
+}
+.chip{
+display: inline-block;
+width: 35px;
+border-radius: 100%;
+background:#333;
+color: white
+text-align: center;
+}
+.chip-brown{
+background: #6d491d;
+}
+.chip-purple{
+background: #a0006e;
+}
 /* header */
 .header{
 background:var(--bg-dark);
@@ -154,4 +172,22 @@ footer{
 }
 footer p{
      margin-bottom: 0px;
+}
+/* page where */
+.where{
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+}
+.where-img{
+    width:40% ;
+    float: left;
+}
+.where-text{
+    width: 50%;
+    float: right;
+}
+.where-text p{
+    font-size: 18px;
+    font-weight: 700;
 }
